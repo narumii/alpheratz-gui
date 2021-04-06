@@ -4,7 +4,6 @@ import de.matthiasmann.twl.utils.PNGDecoder;
 import pl.alpheratzteam.gui.api.texture.Texture;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL30;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;

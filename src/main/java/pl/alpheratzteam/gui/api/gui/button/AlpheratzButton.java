@@ -51,4 +51,5 @@ public class AlpheratzButton extends ScreenHelper {
     public void mouseClicked() {
         callback.onPress(this);
     }
+
 }

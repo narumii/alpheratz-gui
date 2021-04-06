@@ -4,7 +4,6 @@ import lombok.Setter;
 import pl.alpheratzteam.gui.api.gui.button.AlpheratzButton;
 import pl.alpheratzteam.gui.api.input.keyboard.Key;
 import pl.alpheratzteam.gui.window.Window;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,8 +18,7 @@ public class AlpheratzScreen extends ScreenHelper {
 
     protected double width, height;
 
-    @Setter
-    protected Window window;
+    @Setter protected Window window;
 
     public void init() {
         buttons.clear();
@@ -51,4 +49,5 @@ public class AlpheratzScreen extends ScreenHelper {
         this.width = width;
         this.height = height;
     }
+
 }

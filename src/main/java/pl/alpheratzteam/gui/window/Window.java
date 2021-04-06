@@ -46,6 +46,8 @@ public class Window {
 
     private AlpheratzScreen currentScreen;
 
+    private int fpsCounter;
+
     /**
      * Creates a program window.
      * @param title window title.
@@ -101,6 +103,10 @@ public class Window {
         fontRenderer = CustomFontRenderer.create(new Font("Sans", Font.PLAIN, 16));
         createWindowLoop();
     }
+    
+    public void setResizable(boolean resizable) {
+        // TODO: 06.04.2021
+    }
 
     /**
      * This method updates lwjgl 3.0 events.
@@ -115,7 +121,6 @@ public class Window {
     private void createWindowLoop() {
         var frameCap = 1.0 / 60.0;
         var frameTime = 0.0;
-        var frames = 0;
         var startTime = timer.getTime();
         var unprocessed = 0.0;
 
@@ -139,7 +144,7 @@ public class Window {
                 if (frameTime >= 1.0) {
                     frameTime = 0;
 //                    System.out.println("FPS: " + frames);
-                    frames = 0;
+                    fpsCounter = 0;
                 }
             }
 
@@ -150,7 +155,7 @@ public class Window {
                 }
 
                 glfwSwapBuffers(windowId);
-                frames++;
+                fpsCounter++;
             }
         }
 
@@ -292,4 +297,5 @@ public class Window {
 
         OpenGLUtil.translate(0.0F, 0.0F, -2000.0F);
     }
+
 }

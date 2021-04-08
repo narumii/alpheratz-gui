@@ -10,7 +10,8 @@ import java.util.Objects;
 import java.util.stream.IntStream;
 
 /**
- * @author Unix on 25.07.2019.
+ * @author superblaubeere27
+ * Source: https://github.com/superblaubeere27/ClientBase/blob/master/src/main/java/net/superblaubeere27/clientbase/utils/fontRenderer/GlyphPageFontRenderer.java
  **/
 
 public class CustomFontRenderer {

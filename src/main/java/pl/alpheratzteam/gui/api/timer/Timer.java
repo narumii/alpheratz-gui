@@ -8,6 +8,7 @@ package pl.alpheratzteam.gui.api.timer;
 public final class Timer {
 
     /**
+     * Why this isn't static lol?
      * Returns the running time of the program in double.
      * @return {@code double} value of the running time.
      */

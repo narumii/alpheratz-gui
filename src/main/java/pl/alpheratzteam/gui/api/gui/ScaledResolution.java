@@ -5,8 +5,8 @@ import pl.alpheratzteam.gui.util.MathUtil;
 import pl.alpheratzteam.gui.window.Window;
 
 /**
- * @author Unix
- * @since 13.02.2021
+ * @author Mojang
+ * Source: net.minecraft.client.gui.ScaledResolution
  */
 
 @Getter

@@ -1,8 +1,8 @@
 package pl.alpheratzteam.gui.util;
 
 /**
- * @author Unix
- * @since 13.02.2021
+ * @author Mojang
+ * Source: net.minecraft.util.MathHelper
  */
 
 public final class MathUtil {

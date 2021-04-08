@@ -14,7 +14,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Unix on 25.07.2019.
+ * @author superblaubeere27
+ * Source: https://github.com/superblaubeere27/ClientBase/blob/master/src/main/java/net/superblaubeere27/clientbase/utils/fontRenderer/GlyphPage.java
  **/
 
 public class FontPage {

@@ -7,8 +7,8 @@ import pl.alpheratzteam.gui.util.OpenGLUtil;
 import pl.alpheratzteam.gui.window.Window;
 
 /**
- * @author Unix
- * @since 13.02.2021
+ * @author Mojang
+ * Source: net.minecraft.client.gui.GuiButton
  */
 
 @Getter
